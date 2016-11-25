@@ -11,6 +11,11 @@ def quiz():
     question4()
     question5()
     question6()
+    question7()
+    question8()
+    question9()
+    question10()
+    #question11()
     
     
 
@@ -98,12 +103,85 @@ def question6():
     print("Which emote do you get after killing ocieros, the consumed king?")
     print("a. By my sword")
     print("b. Path of the dragon")
-    print("curl up")
+    print("c. curl up")
     answer6 = input("Pick your answer: ")
     if answer6.lower() == "b":
         score -= 10
+    else:
+        pass
 
 def question7():
+    global name
+    global score
+
+    print("Question 7")
+    print("Which boss has its only weakness in its boss room?")
+    print("a. Dancer of the Boreal valley ")
+    print("b. Lothric, younger prince and Lorien, older prince")
+    print("c. Yhorm the giant")
+    answer7 = input("Pick your answer: ")
+    if answer7.lower() == "c":
+        score -= 10
+    else:
+        pass
+
+def question8():
+    global name
+    global score
+
+    print("Question 8")
+    print("Who is the last Lord of Cinder you fight?")
+    print("a. Abyss watchers")
+    print("b. Lothric, younger prince and Lorien, older prince")
+    print("c. Aldrich, devourer of gods")
+    answer8 = input("Pick your answer: ")
+    if answer8.lower() == "b":
+        score -= 10
+    else:
+        pass
+
+def question9():
+    global name
+    global score
+
+    print("Question 9")
+    print("Which NPC do you summon in order to get both twinkling dragon stones?")
+    print("a. Hawkwood the deserter")
+    print("b. Black Hand gotthard")
+    print("c. Ringfinger Leonhard")
+    answer9 = input("Pick your answer: ")
+    if answer9.lower() == "c":
+        score -= 10
+    else:
+        pass
+
+def question10():
+    global name
+    global score
+
+    print("Question 10")
+    print("How many katanas are they in the game?")
+    print("a. 6")
+    print("b. 7")
+    print("c. 8")
+    answer10 = input("Pick your answer: ")
+    if answer10.lower() == "b":
+        score -= 10
+    else:
+        pass
+
+    if score == 0:
+        bonus_question()
+        print("Well done,", name" you have got all of the questions correct, you now get to answer a bonus question.")
+
+def bonus_question():
+    print("Which boss is closest to the 'Great belfry' bonfire?")
+    print("a. NAmeless king")
+    print("b. Soul of Cinder")
+    print("c. Gwyndolin dark sun")
+    if bonus_answer == 
+    
+
         
 
 
