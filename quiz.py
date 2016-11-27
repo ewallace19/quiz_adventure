@@ -15,7 +15,7 @@ def quiz():
     question8()
     question9()
     question10()
-    #question11()
+    bonus_question()
     
     
 
@@ -172,14 +172,25 @@ def question10():
 
     if score == 0:
         bonus_question()
-        print("Well done,", name" you have got all of the questions correct, you now get to answer a bonus question.")
 
 def bonus_question():
+    global name
+    global score
+    print("Well done, you have got all of the questions correct, you now get to answer a bonus question.")
     print("Which boss is closest to the 'Great belfry' bonfire?")
-    print("a. NAmeless king")
+    print("a. Nameless king")
     print("b. Soul of Cinder")
     print("c. Gwyndolin dark sun")
-    if bonus_answer == 
+    bonus_answer = input("Pick your answer: ")
+    if bonus_answer.lower() == "a":
+        score -= 10
+    else:
+        pass
+        quit()
+
+    if score == -10:
+        print("Congratulations, you are a dark souls 3 legend, you answered all 10 questions right and answered the bonus question right too!, well done, you should be proud")
+        quit()
     
 
         
@@ -192,3 +203,4 @@ def bonus_question():
 # run your code.
 if __name__ == "__main__":
     quiz()
+
