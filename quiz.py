@@ -1,4 +1,4 @@
-# Our quiz!
+# Our quiz!!
 score = 100
 name = ""
 def quiz():

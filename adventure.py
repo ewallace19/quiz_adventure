@@ -86,7 +86,7 @@ def room3():
     global random
 
     healthbar()
-    
+    # attack system dosent work
     print("You find a living suit of armour wielding a sword. what do you do?")
     print("a. attack")
     print("b. try to parry it")
@@ -177,7 +177,7 @@ def room5b():
     global random
 
     healthbar()
-    
+    # attack system dosent work
     enemy_hp = 40
     print("As you progress down the path,you come across an archer skeleton. What do you do?")
     print("a. attack")
@@ -328,7 +328,7 @@ def bossroom():
     global boss_hp
     global random
     boss_hp = 10000
-
+ # the boss entirely dosent work
     healthbar(), bosshpbar()
     print("As you enter the boss room, you come across a weapon on the floor called the storm ruler, however as you go to pick it up, a giant follows you in.; are you ready?")
     print("a. charge your weapon")
